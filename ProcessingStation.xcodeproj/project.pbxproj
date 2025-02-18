@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F0427C22D63B7C100227EE3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F0427C12D63B7C100227EE3 /* main.cpp */; };
+		2F0427D32D63BE2F00227EE3 /* processingStations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F0427D12D63BE2F00227EE3 /* processingStations.cpp */; };
+		2F0427D62D63F52F00227EE3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F0427D42D63F52F00227EE3 /* main.cpp */; };
+		2F0427D92D63FF1D00227EE3 /* workflow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F0427D72D63FF1D00227EE3 /* workflow.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,11 @@
 
 /* Begin PBXFileReference section */
 		2F0427BE2D63B7C100227EE3 /* ProcessingStation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProcessingStation; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F0427C12D63B7C100227EE3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2F0427D12D63BE2F00227EE3 /* processingStations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = processingStations.cpp; sourceTree = "<group>"; };
+		2F0427D22D63BE2F00227EE3 /* processingStations.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = processingStations.hpp; sourceTree = "<group>"; };
+		2F0427D42D63F52F00227EE3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2F0427D72D63FF1D00227EE3 /* workflow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = workflow.cpp; sourceTree = "<group>"; };
+		2F0427D82D63FF1D00227EE3 /* workflow.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = workflow.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,11 @@
 		2F0427C02D63B7C100227EE3 /* ProcessingStation */ = {
 			isa = PBXGroup;
 			children = (
-				2F0427C12D63B7C100227EE3 /* main.cpp */,
+				2F0427D12D63BE2F00227EE3 /* processingStations.cpp */,
+				2F0427D22D63BE2F00227EE3 /* processingStations.hpp */,
+				2F0427D42D63F52F00227EE3 /* main.cpp */,
+				2F0427D72D63FF1D00227EE3 /* workflow.cpp */,
+				2F0427D82D63FF1D00227EE3 /* workflow.hpp */,
 			);
 			path = ProcessingStation;
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F0427C22D63B7C100227EE3 /* main.cpp in Sources */,
+				2F0427D62D63F52F00227EE3 /* main.cpp in Sources */,
+				2F0427D32D63BE2F00227EE3 /* processingStations.cpp in Sources */,
+				2F0427D92D63FF1D00227EE3 /* workflow.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
